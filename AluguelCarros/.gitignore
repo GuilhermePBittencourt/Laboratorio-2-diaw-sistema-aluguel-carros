@@ -1,0 +1,16 @@
+# Dependências e builds
+node_modules/
+dist/
+target/
+
+# Variáveis de ambiente (segredos nunca vão para o Git)
+.env
+.env.local
+*.env
+
+# IDEs e sistema
+.idea/
+.vscode/
+*.iml
+.DS_Store
+*.log
